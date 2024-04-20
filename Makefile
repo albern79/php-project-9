@@ -10,4 +10,4 @@ validate: # проверить файл
 	composer validate
 
 lint: # запустить phpcs
-	composer exec --verbose phpcs -- --standard=PSR12 src public
+	composer exec --verbose phpcs -- --standard=PSR12 public

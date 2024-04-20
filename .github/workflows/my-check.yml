@@ -1,4 +1,4 @@
-name: check page analizer
+name: MYCHECK
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
