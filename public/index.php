@@ -1,6 +1,5 @@
 <?php
 
-
 require __DIR__ . '/../vendor/autoload.php';
 
 use Slim\Factory\AppFactory;
@@ -18,7 +17,6 @@ $app->addErrorMiddleware(true, true, true);
 $app->get('/', function ($request, $response) {
     return $this->get('renderer')->render($response, 'index.html');
 });
-
 
 $app->get('/urls', function ($request, $response) {
     $response->getBody()->write('sites hello to you');
